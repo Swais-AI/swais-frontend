@@ -10,7 +10,7 @@ db = mysql.connector.connect(
     password="*******",
     database="edutech"
 )
-
+# test code
 @app.route('/')
 def home():
     return render_template('index.html')
